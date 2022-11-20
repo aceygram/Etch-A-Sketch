@@ -43,7 +43,7 @@ start.addEventListener('mouseup', () =>{
     }
 
     }
-})
+});
     
 
 
