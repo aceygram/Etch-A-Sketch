@@ -6,14 +6,17 @@ document.body.appendChild(container);
 
 const start = document.querySelector('button');
 
-start.addEventListener('mousedown', () =>{
+const reset = document.querySelector('button');
+
+
+reset.addEventListener('mousedown', () =>{
     window.location.reload();    
 });
 
 start.addEventListener('mouseup', () =>{
 
     for(let a = 0; a < 2; a++){
-    let columns = prompt('Select a number', '');
+    let columns = prompt('Select the number of rows', '');
 
     if (columns > 100){
         a = 0;
